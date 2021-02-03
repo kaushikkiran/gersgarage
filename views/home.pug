@@ -1,0 +1,10 @@
+extends homebase
+
+block content
+  main.main
+    h2.heading-secondary.ma-bt-lg Welcome to Ger's Garage
+    p
+        button.btn.btn-green( type='button' onclick='/home/') Add Booking
+        button.btn.btn-green( type='button' onclick='viewBooking()') View Bookings
+        button.btn.btn-green( type='button' onclick='deleteBooking()') Delete Booking
+        button.btn.btn-green( type='button' onclick='updateBooking()') Update Booking

@@ -1,0 +1,28 @@
+{
+  "name": "gersgarage",
+  "version": "0.1.0",
+  "description": "Ger's Garage Website Application",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "devstart": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "html-to-text": "^6.0.0",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.7",
+    "pug": "2.0.0-beta11",
+    "validator": "^13.5.2"
+  },
+  "author": "Kiran",
+  "license": "ISC"
+}
